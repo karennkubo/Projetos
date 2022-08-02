@@ -28,7 +28,7 @@
 <br/>
 
 <div align="center">
-  <p>Ah, eu adoro conhecer novas pessoas e conhecer novas oportunidades. Por isso, sinta-se à vontade para me contatar.</p>
+  <p>Ah, eu adoro conhecer novas pessoas e novas oportunidades. Por isso, sinta-se à vontade para me contatar.</p>
 </div>
 
 <div align="center"> 
