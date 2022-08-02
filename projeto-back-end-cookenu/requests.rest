@@ -1,0 +1,36 @@
+POST http://localhost:3003/user
+Content-Type: application/json
+
+    {
+    "name": "Karen",
+    "email": "karen@hogwarts.com",
+    "password": "123456",
+    "role": "ADMIN"
+    } 
+
+###
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+    {
+    "email": "karen@hogwarts.com",
+    "password": "123456"
+    } 
+
+### 
+GET http://localhost:3003/user/
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZTU1MmZiLTFjMGItNDY5Yi05NWMzLWZjZTBhZTc1OTI1MSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY1NjUxNzQ3NiwiZXhwIjoxNjU2NTI0Njc2fQ.mrmJUDmHYF1iXww07aJb_SB3GBuRe4ZtExtA3DkFhDY
+
+###
+GET http://localhost:3003/user/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZTU1MmZiLTFjMGItNDY5Yi05NWMzLWZjZTBhZTc1OTI1MSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY1NjUyNTM0OSwiZXhwIjoxNjU2NTMyNTQ5fQ.1r4VPtpb8-xz-qLX68OQjbL9sifAW1F6Gfxmc9MKwGA
+
+###
+POST http://localhost:3003/recipe
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0ZTU1MmZiLTFjMGItNDY5Yi05NWMzLWZjZTBhZTc1OTI1MSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY1NjUyNTM0OSwiZXhwIjoxNjU2NTMyNTQ5fQ.1r4VPtpb8-xz-qLX68OQjbL9sifAW1F6Gfxmc9MKwGA
+Content-Type: application/json
+    {
+        "title": "Macaron",
+        "description": "Pequeno biscoito feito com farinha de amêndoas, granuloso e molinho, de forma arredondada com em média de 3 a 5 cm de diâmetro."
+    }
+    
