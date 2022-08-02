@@ -14,6 +14,9 @@ Criação da API com as funcionalidades de:
 7) Usuário visualiza as compras realizadas anteriormente;
 
 • [Documentação](https://documenter.getpostman.com/view/20352445/UzQyqNhN)
+<div> 
+  <img src="https://user-images.githubusercontent.com/98588790/182397359-778c35fd-19c1-4918-8ea4-ddba14ea275f.png"/>
+</div>
 
 ## Front-end: 
 Criação de um site com as funcionalidades de:
@@ -24,3 +27,6 @@ Criação de um site com as funcionalidades de:
 5) Logout;
 
 • [Site](https://ambulnz.surge.sh/)
+<div> 
+  <img src="https://user-images.githubusercontent.com/98588790/182397545-8d3cc295-7876-48a1-9c68-60abba41e427.png"/>
+</div>
