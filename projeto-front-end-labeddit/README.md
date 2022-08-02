@@ -2,7 +2,7 @@
 (com React.js - custom hooks, styled-components, react-router e axios)
 
 # Link: [Labeddit](https://labeddit-karen-kubo.surge.sh/)
-
+Aplicativo de fórum inspirado no Reddit:
 Abaixo estão as páginas existentes no projeto com suas respectivas funções.
 ## Página de Login:
 A página de login possui dois campos de texto: email e senha. Ao fazer o login, o usuário deverá ser redirecionado para a página de feed.
