@@ -4,6 +4,10 @@
 
 Essa documentação foi desenvolvida por <em>Karen Naomi Cardoso Kubo </em> se utilizando: typescript, Node, APIs Rest, banco de dados (SQL), Knex, POO, arquitetura em camadas, autenticação e criptografia.
 
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/98588790/182391499-9f42b05d-30ce-4760-91e4-d8e0199363c6.png" alt="Postman"/>
+</div>
+
 Esse projeto nada mais é do que uma rede social, na qual os usuários podem dividir informações relevantes sobre comidas e receitas que tenham experimentado. Ela possui todas as funcionalidades mais comuns em redes sociais:
 
 1. **Cadastro**
@@ -34,5 +38,5 @@ Esse projeto nada mais é do que uma rede social, na qual os usuários podem div
 
     Um usuário "normal" deve ser capaz de editar uma receita própria dele, mas se ele tentar editar o post de outra pessoa, o endpoint retorna um erro.
     
-- **Deletar receita**
+8. **Deletar receita**
     O usuário normal consegue deletar apenas os próprios posts/receitas, porém, o administrador consegue deletar qualquer receita que ele desejar.
