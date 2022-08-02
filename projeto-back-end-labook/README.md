@@ -3,7 +3,7 @@
 <strong><em>LINK DA DOCUMENTAÇÃO: [Labook](https://documenter.getpostman.com/view/20352445/UzJJuctm)</em></strong>
 
 Essa documentação foi desenvolvida por <em>Karen Naomi Cardoso Kubo </em> se utilizando: typescript, Node, APIs Rest, banco de dados (SQL), Knex, POO, arquitetura em camadas, autenticação e criptografia.
-
+<img src="https://user-images.githubusercontent.com/98588790/182392019-d7abcbda-5ae1-40d8-9088-fab371ecfe8e.png" alt="Labook"/>
 Esse projeto possui o objetivo de promover a conexão e interação entre seus mais diversos usuários. Os usuários podem criar posts de dois tipos ("evento" ou "normal"), comentá-los e curti-los também. 
 
 A documentação é dividida em 5 partes:
