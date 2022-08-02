@@ -16,7 +16,7 @@
 • Ver a lista de viagens existentes;
 
 ## Como administrador: 
-OBS.: Há apenas 1 conta administradora e o login e esse é o acesso (assim você terá permissões especiais):
+OBS.: Há apenas 1 conta administradora, utilize o login a seguir (assim você terá permissões especiais):
 
  ```javascript   
     const loginComoAdministrador = {
