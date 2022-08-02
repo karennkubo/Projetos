@@ -9,7 +9,7 @@
 <br/>
 
 <div align="center">
-<p> <strong>Eles estão divididos em sub-pastas nesse repositório. Por isso, para ver como eu desenvolvi cada um e ver o resultado final, por favor, clique nos pastas que você deseja visualizar.</strong> Todos eles foram desenvolvidos nessas tecnologias que vou colocar aqui:</p> 
+<p> <strong>Eles estão divididos em sub-pastas nesse repositório. Por isso, para ver como eu desenvolvi cada um e ver o resultado final, por favor, clique nas pastas que você deseja visualizar.</strong> Todos eles foram desenvolvidos nessas tecnologias que vou colocar aqui:</p> 
 </div>
 
 <div style="display: inline_block" align="center"><br>
