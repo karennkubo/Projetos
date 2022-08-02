@@ -2,7 +2,7 @@
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/98588790/182399985-9a220394-e88a-4454-a7b3-70053bc01976.gif" alt="proud" width="40"/>
-    <span >Seja bem-vindo a minha galeria de projetos individuais </span> 
+    <span >Seja bem-vindx a minha galeria de projetos individuais </span> 
     <img src="https://user-images.githubusercontent.com/98588790/182399985-9a220394-e88a-4454-a7b3-70053bc01976.gif" alt="proud" width="40"/>
 </div>
 <br/>
