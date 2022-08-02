@@ -12,8 +12,8 @@
 
 ## Como candidato:
 
-• Se inscrever para viagens futuras em outros planetas;
-• Ver a lista de viagens existentes;
+• Se inscrever para viagens futuras em outros planetas; <br/>
+• Ver a lista de viagens existentes;<br/>
 
 ## Como administrador: 
 OBS.: Há apenas 1 conta administradora, utilize o login a seguir (assim você terá permissões especiais):
@@ -25,5 +25,5 @@ OBS.: Há apenas 1 conta administradora, utilize o login a seguir (assim você t
     }    
 ```
 
-• Verificar lista de detalhes das viagens, candidatos inscritos e candidatos aprovados (decidindo quais aprovar);
+• Verificar lista de detalhes das viagens, candidatos inscritos e candidatos aprovados (decidindo quais aprovar);<br/>
 • Criar uma viagem.
