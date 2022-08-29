@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
-import { IconButton } from '@mui/material';
+import {goToFeed, goToSignUp} from "../../Routes/Coordinator";
+import { Button, IconButton } from '@mui/material';
 import { Form, Main, ButtonStyled, InputMaterial } from './styled';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
 import axios from 'axios';
 import { BASE_URL } from './../../Constants/urls';
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-  // const [errEmail, setErrEmail] = useState("");
-  // const [errPassword, setErrEmail] = useState("");
+  
+  const navigate = useNavigate();
+
   const handleClickShowPassword = () => {
     setShowPassword(!showPassword)
   }
@@ -29,10 +32,12 @@ export default function Login() {
   const loginApi = async(body) => {
     await axios.post(`${BASE_URL}/login`, body)
     .then((res) => {
-      console.log(res.data)
+      localStorage.setItem('token', res.data.token);
+      alert(`Hello ${res.data.user.name}`);
+      goToFeed(navigate);
     })
     .catch((err) => {
-      console.log(err.response.data.message)
+      alert(err.response.data.message)
     })
   }
 
@@ -72,7 +77,7 @@ export default function Login() {
         </IconButton>
         <ButtonStyled type="submit">Entrar</ButtonStyled>
       </Form>
-
+      <Button onClick={()=>goToSignUp(navigate)}> Ainda não tem uma conta? Cadastre-se aqui!</Button>
     </Main>
   )
 }
